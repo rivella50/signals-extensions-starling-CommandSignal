@@ -1,15 +1,17 @@
 package org.robotlegs.mvcs
 {
-	import flash.display.DisplayObjectContainer;
-    import org.robotlegs.base.SignalCommandMap;
-    import org.robotlegs.core.ISignalCommandMap;
-    import org.robotlegs.core.ISignalContext;
+	
+	import org.robotlegs.base.SignalCommandMap;
+	import org.robotlegs.core.ISignalCommandMap;
+	import org.robotlegs.core.ISignalContext;
+	
+	import starling.display.DisplayObjectContainer;
 
-    public class SignalContext extends Context implements ISignalContext
+    public class StarlingSignalContext extends StarlingContext implements ISignalContext
     {
         protected var _signalCommandMap:ISignalCommandMap;
 
-		public function SignalContext(contextView:DisplayObjectContainer = null, autoStartup:Boolean = true)
+		public function StarlingSignalContext(contextView:DisplayObjectContainer = null, autoStartup:Boolean = true)
 		{
 			super(contextView, autoStartup);
 		}

@@ -38,7 +38,7 @@ package org.robotlegs.base
             signalCommandMap[commandClass] = callback;
             signal.add( callback );
         }
-
+                       
         public function mapSignalClass(signalClass:Class, commandClass:Class, oneShot:Boolean = false):ISignal
         {
             var signal:ISignal = getSignalClassInstance( signalClass );

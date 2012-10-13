@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/libs/starling.swc!/" />
+      <root url="jar://$PROJECT_DIR$/build/libs/SwiftSuspenders-v1.6.0.swc!/" />
+      <root url="jar://$PROJECT_DIR$/build/libs/robotlegs-framework-v1.5.2.swc!/" />
+      <root url="jar://$PROJECT_DIR$/build/libs/flexunit-cilistener-4.1.0-RC1.x-sdky.y.y.y.swc!/" />
+      <root url="jar://$PROJECT_DIR$/build/libs/robotlegs-starling-plugin-v0.3.swc!/" />
+      <root url="jar://$PROJECT_DIR$/build/libs/as3-signals-v0.9-BETA.swc!/" />
+      <root url="jar://$PROJECT_DIR$/build/libs/flexUnitTasks-4.1.0-RC1.x.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/libs/hamcrest-1.0.2.swc!/" />
+      <root url="jar://$PROJECT_DIR$/build/libs/flexunit-uilistener-4.1.0-RC1.x-sdky.y.y.y.swc!/" />
+      <root url="jar://$PROJECT_DIR$/build/libs/flexunit-core-flex-4.1.0-RC1.x-sdky.y.y.y.swc!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
